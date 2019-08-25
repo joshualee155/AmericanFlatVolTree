@@ -14,7 +14,7 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     
 
-    clsAmericanFlatVolTree tree(100, 100, 0.5, 0.2, 0.01, 0.005, true, 4096);
+    clsAmericanFlatVolTree tree(100, 100, 0.5, 0.2, 0.01, 0.005, true, 128);
     
     cout << tree.get_price() << endl;
     
